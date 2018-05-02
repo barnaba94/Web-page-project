@@ -1,0 +1,427 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>TRANSLATOR</title>
+    <link type="text/css" rel="stylesheet" href="Tarnawa_menu.css">
+    <link type="text/css" rel="stylesheet" href="Tarnawa_css.css">
+    <script type="text/javascript" src="jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="Tarnawa_js.js"></script>
+</head>
+<body>
+    <header class="header">
+
+        <div id="menu_po">
+            <h1>"TRANSLATOR"</h1>
+            <ul class="menu">
+                <li><a href="#" id="Ofirmie">O firmie</a></li>
+                <li><a href="#" id="Offf"> Oferta</a></li>
+                <li><a href="#" id="mennu">Tłumaczenia</a>
+                    <ul id="menu2">
+                        <li><a href="#" id="ang">Język angielski</a></li>
+                        <li><a href="#" id="niem">Język niemiecki</a></li>
+                        <li><a href="#" id="wlos">Język włoski</a></li>
+                        <li><a href="#" id="fran">Język francuski</a></li>
+                        <li><a href="#" id="hi">Język hiszpański</a></li>
+                        <li><a href="#" id="pr">Język portugalski</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="rez">Rezerwacja</a></li>
+                <li><a href="#" id="kon">Kontakt</a></li>
+                <li><a href="#" id="zro">Źródła</a></li>
+            </ul>
+        </div>
+    </header>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<section class="content">
+		<div id="o_firmie">
+			<h2>O firmie</h2>
+            <p>
+				<img src="https://www.hastac.org/sites/default/files/upload/images/post/orange-translate-button.jpg">
+                <p> Firma Translator została założona w 1950 roku w Bielsku-Białej, właścicielem jest od początku Mikołaj Tarnawa.
+                    <br>
+                    <br> 
+						Zajmujemy się tłumaczeniem przysięgłym dokumentów międzynarodowych, kursami językowymi oraz organizacją wycieczek zagranicznych w 
+						doszkolaniu umiejętności lingwistycznych do takich krai jak: Rumunia, Uganda, Kongo, Korea Północna, Watykan oraz Surinam.
+                </p>
+				<img class="wiecej" src='https://cdn2.iconfinder.com/data/icons/media-and-navigation-buttons-round/512/Button_2-512.png'
+                    style="width: 30px; height: 30px;">
+					<div class="popup" onclick="myFunction()">Więcej!	
+				  <span class="popuptext" id="myPopup">Wpis o nas dostępny jest również na Wikipedii</span>
+				</div>
+                <br>
+                <br>
+                <p id='ukryty'>
+                   Marka naszej firmy była wielokrotnie potwierdzana we wszelakich rankingach, m.in.: Gazeta Wyborcza, Gazeta Polska, Pani Domu,
+				   Od przedszkola do więzienia, itd. Prezes firmy Mikołaj Tarnawa został nagradzany tytułem przedsiębiorcy roku w 2001, 2002,
+				   2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016. SZACUNEK DLA NIEGO.
+			</p>
+		</div>
+		<hr>
+		<div class="oferta">
+            <h2>Oferta</h2>
+            <p>Głównym punktem naszej działalności jest organizacja zagranicznych kursów językowych. Od lat jest uważana za najlepszą metodę
+				przyswajania języka obcego. Prowadzimy zajęcia z najlepszymi lektorami, naukowcami oraz normalnymi mieszkańcami danych 
+				państw. Klienci mają zagwarantowaną szybką oraz skuteczną edukację. Poniżej przedstawiamy wyszczególnione oferowane
+				przez nas kursy językowe.
+                <br> Mamy nadzieję, że spełnimy Państwa oczekiwania, a później wrócicie do nas na inne ciekawe kursy.</p>
+            <ul>
+                <li>
+                    <a id="uganda"><h3>Uganda</h3></a></li>
+                <div id="uganda_ukryty">
+                    <p>
+						<img src="https://flagspot.net/images/u/ug.gif">
+						</p>
+						<p>
+                        Kraj w Afryce, oferujemy szansę na naukę języka francuskiego z ludem plemiennym Muzubkjbdusbdoasf, w programie podróży
+						dostępny jest również nauka tańca ludowego Kajsbdojdbfojbfljbsdlkfjb, polowanie na małpy, lwy, geparty i węże, a podwieczór każdego
+						dnia, oferujemy wycieczki szlakiem Murzyńskich klubów w celu nawiązania kontaktów z lokalną społecznością, cena za alkohol nie jest zawarta
+						w cenie podróży.
+						</p>
+                </div>
+                <li>
+                    <a id="rumunia"><h3>Rumunia</h3>
+                    <div id="lista2">
+                    <ul>
+                        <li>
+                            <a id="buka"><h4>Bukareszt</h4></a></li>
+                <div id="buka_ukryty">
+                    <p>
+                        Stolica kraju, oferujemy naukę języka od podstaw, zwiedzanie miasta nocą, tradycyjnie clubing z Rumunami, oraz możliwość
+						sprowadzanie obywateli do Polski. 
+                    </p>
+                </div>
+                <li>
+                    <a id="timi"><h4>Timisoara</h4></a></li>
+                <div id="timi_ukryty">
+                    <p>
+                        Drugie co do wielkości miasto w Rumunii, bogactwo kultury, tradycji oraz pięknych kobiet. W programie edukacyjnym nauka na
+						Uniwersytecie oraz w szkołach średnich.
+                    </p>
+                </div>
+                <li>
+                    <a id="wes"><h4>Jassy</h4></a></li>
+                <div id="wes_ukryty">
+                    <p>
+                        To samo co w Bukareszcie tylko w innym mieście.
+                    </p>
+                </div>
+                <li>
+                    <a id="kons"><h4>Konstanca</h4></a></li>
+                <div id="kons_ukryty">
+                    <p>
+                        To samo co w Bukareszcie tylko w innym mieście.
+                    </p>
+                </div>
+                <li>
+                    <a id="kuro"><h4>Kluz-Napoka</h4></a></li>
+                <div id="kuro_ukryty">
+                    <p>
+                        To samo co w Bukareszcie tylko w innym mieście.
+                    </p>
+                </div>
+            </ul>
+            </li>
+            <li>
+                <a id="kongo"><h3>Kongo</h3></a></li>
+            <div id="kongo_ukryty">
+				<p>
+                   Blablabablablabablablabablablabablablabablablabablablabablablabablablabablablababla
+				   blabablablabablablabablablabablablabablablabablablabablablabab
+				   lablabablablabablablabablablabablablabablablabablablabab
+					lablabablablabablablabablablabablablabablablabablablabablablabablablabablablababla
+					blabablablabablablabablablabablablabablablabablablabablablabablablabablablabablabla
+					bablablabablablabablablabablablabablablabab
+                </p>
+            </div>
+            <li>
+                <a id="korea"><h3>Korea Północna</h3></a></li>
+            <div id="korea_ukryty">
+                <p>
+                   Blablabablablabablablabablablabablablabablablabablablabablablabablablabablablababla
+				   blabablablabablablabablablabablablabablablabablablabablablabab
+				   lablabablablabablablabablablabablablabablablabablablabab
+					lablabablablabablablabablablabablablabablablabablablabablablabablablabablablababla
+					blabablablabablablabablablabablablabablablabablablabablablabablablabablablabablabla
+					bablablabablablabablablabablablabablablabab
+                </p>
+            </div>
+            <li>
+                <a id="suri"><h3>Surinam</h3></a></li>
+            <div id="suri_ukryty">
+                <p>
+                    Blablabablablabablablabablablabablablabablablabablablabablablabablablabablablababla
+				   blabablablabablablabablablabablablabablablabablablabablablabab
+				   lablabablablabablablabablablabablablabablablabablablabab
+					lablabablablabablablabablablabablablabablablabablablabablablabablablabablablababla
+					blabablablabablablabablablabablablabablablabablablabablablabablablabablablabablabla
+					bablablabablablabablablabablablabablablabab
+                </p>
+            </div>
+        </div>
+        <hr>
+	          <h2>Tłumaczenia</h2>
+            <div>
+                <div id="mosaic">
+                    <table>
+                        <tr>
+                            <td>
+                                <div>
+                                    <a id="angielski2" href="#"><img src="https://us.123rf.com/450wm/stefanphoto/stefanphoto1207/stefanphoto120700003/14489735-bandera-brit-nica-ondeando-en-el-viento.jpg?ver=6"></a>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <a id="niemiec2" href="#"><img src="https://i.ytimg.com/vi/uYxyx8DgWGA/maxresdefault.jpg"></a>
+                                </div>
+
+                            </td>
+                            <td>
+                                <div>
+                                    <a id="wloski2" href="#"><img src="https://1.allegroimg.com/s400/01a105/a3a890fb4496b1a7ab61c5feef31"></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div>
+                                    <a id="francuski2" href="#"><img src="https://0.allegroimg.com/s400/015b7d/a18639224976aac7b3c7e5433970"></a>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <a id="hiszp2" href="#"><img src="http://przeglad-turystyczny.pl/images/uimg01/hiszpania-01-flaga.jpg"></a>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <a id="port2" href="#"><img src="http://www.odyssei.com/gallery/633/121199326016195_portugalia_039.jpg"></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="angielski">
+                <h3>Język angielski</h3>
+                <p>
+                    Najpopularniejszy język do komunikacji międzynarodowej. W naszej firmie państwo mają do wyboru języka na poziomie początkującym, podstawowym, zaawansowanym
+					średnio-zaawansowany oraz eksperckim. Cena kursu zależy od ilości godzin wybranych do nauki oraz poziomu kursu. Ceny kursu już od 500zł za miesiąc nauki!
+					Przyporządkowania do grup językowych odbędą się po weryfikacji wiedzy kursanta podczas egzaminu wstępnego.
+					<br>
+					Poniżej przedstawiamy sylwetki naszych lektorów, wcześniej zajmowali się piłką nożną.
+	
+                </p>
+                <div class="image">
+                    <a onClick="window.open('http://naszapilka.com/wp-content/uploads/2016/12/sg.jpg', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="http://naszapilka.com/wp-content/uploads/2016/12/sg.jpg"></a>
+                    <a onClick="window.open('http://reddevilarmada.com/files/2016/02/Wayne-Rooney-601018.jpg', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="http://reddevilarmada.com/files/2016/02/Wayne-Rooney-601018.jpg"></a>
+                    <a onClick="window.open('http://www.soccerpro.com/thecentercircle/wp-content/uploads/2014/01/3623742790.jpg', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="http://www.soccerpro.com/thecentercircle/wp-content/uploads/2014/01/3623742790.jpg"></a>
+                </div>
+                <a class="mniej" id="angielski3"><img src='https://cdn2.iconfinder.com/data/icons/media-and-navigation-buttons-round/512/Button_2-512.png'
+                        style="width: 30px; height: 30px;"></a>
+            </div>
+            <div id="niemiec">
+                <h3>Język niemiecki</h3>
+                <p>
+                    Język naszych zachodnich sąsiadów, bardzo ważny w kontaktach handlowych. W naszej firmie państwo mają do wyboru języka na poziomie początkującym, podstawowym, zaawansowanym
+					średnio-zaawansowany oraz eksperckim. Cena kursu zależy od ilości godzin wybranych do nauki oraz poziomu kursu. Ceny kursu już od 520zł za miesiąc nauki!
+					Przyporządkowania do grup językowych odbędą się po weryfikacji wiedzy kursanta podczas egzaminu wstępnego.
+					<br>
+					Poniżej przedstawiamy sylwetki naszych lektorów, wcześniej zajmowali się piłką nożną.
+                </p>
+                <div class="image">
+                    <a onClick="window.open('http://images.performgroup.com/di/library/omnisport/d5/af/mariogotze-cropped_1fujm9d3fha11cyfqr3dld5kl.jpg?t=-1468841973&w=620&h=430', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="http://images.performgroup.com/di/library/omnisport/d5/af/mariogotze-cropped_1fujm9d3fha11cyfqr3dld5kl.jpg?t=-1468841973&w=620&h=430"></a>
+                    <a onClick="window.open('http://zzapolowy.com/wp-content/uploads/2017/04/pl.jpg', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="http://zzapolowy.com/wp-content/uploads/2017/04/pl.jpg"></a>
+                    <a onClick="window.open('http://i.dailymail.co.uk/i/pix/2010/04/23/article-0-02349044000005DC-600_468x444.jpg', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="http://i.dailymail.co.uk/i/pix/2010/04/23/article-0-02349044000005DC-600_468x444.jpg"></a>
+                </div>
+                <a class="mniej" id="niemiec3"><img src='https://cdn2.iconfinder.com/data/icons/media-and-navigation-buttons-round/512/Button_2-512.png'
+                        style="width: 30px; height: 30px;"></a>
+            </div>
+            <div id="wloski">
+                <h3>Język włoski</h3>
+                <p>
+                    Język gladiatorów, cezarów oraz Romeo i Julii. W naszej firmie państwo mają do wyboru języka na poziomie początkującym, podstawowym, zaawansowanym
+					średnio-zaawansowany oraz eksperckim. Cena kursu zależy od ilości godzin wybranych do nauki oraz poziomu kursu. Ceny kursu już od 550zł za miesiąc nauki!
+					Przyporządkowania do grup językowych odbędą się po weryfikacji wiedzy kursanta podczas egzaminu wstępnego.
+					<br>
+					Poniżej przedstawiamy sylwetki naszych lektorów, wcześniej zajmowali się piłką nożną.
+                </p>
+                <div class="image">
+                    <a onClick="window.open('http://lovefootball.pl/tl_files/Major%20League%20Soccer/pirlo.jpg', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="http://lovefootball.pl/tl_files/Major%20League%20Soccer/pirlo.jpg"></a>
+                    <a onClick="window.open('https://ocdn.eu/pulscms-transforms/1/cOTktkpTURBXy9lZGUxMzRjNmQxNTI0NTJjM2JiZjYxZjk4YmFiZDQ5MC5qcGeTlQMAAM0KAM0FoJMFzQMUzQG8lQfZMi9wdWxzY21zL01EQV8vMTQwYjFjZmU3ZjBhYzUyZWRjMDEwZDcwOTc4ZTg0YmUucG5nAMIA', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="https://ocdn.eu/pulscms-transforms/1/cOTktkpTURBXy9lZGUxMzRjNmQxNTI0NTJjM2JiZjYxZjk4YmFiZDQ5MC5qcGeTlQMAAM0KAM0FoJMFzQMUzQG8lQfZMi9wdWxzY21zL01EQV8vMTQwYjFjZmU3ZjBhYzUyZWRjMDEwZDcwOTc4ZTg0YmUucG5nAMIA"></a>
+                    <a onClick="window.open('http://ocdn.eu/pulscms-transforms/1/AQwktkpTURBXy8yYjNmYWZiY2RhZjc1YTcyNmI0ZjgyYmQyMjY0ZjVmYi5qcGeTlQMAGs0Bwsz9kwXNAxTNAbyVB9kyL3B1bHNjbXMvTURBXy8xNDBiMWNmZTdmMGFjNTJlZGMwMTBkNzA5NzhlODRiZS5wbmcAwgA', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="http://ocdn.eu/pulscms-transforms/1/AQwktkpTURBXy8yYjNmYWZiY2RhZjc1YTcyNmI0ZjgyYmQyMjY0ZjVmYi5qcGeTlQMAGs0Bwsz9kwXNAxTNAbyVB9kyL3B1bHNjbXMvTURBXy8xNDBiMWNmZTdmMGFjNTJlZGMwMTBkNzA5NzhlODRiZS5wbmcAwgA"></a>
+                </div>
+                <a class="mniej" id="wloski3"><img src='https://cdn2.iconfinder.com/data/icons/media-and-navigation-buttons-round/512/Button_2-512.png'
+                        style="width: 30px; height: 30px;"></a>
+            </div>
+            <div id="francuski">
+                <h3>Język francuski</h3>
+                <p>
+                    Podobno język miłości oraz kultury. W naszej firmie państwo mają do wyboru języka na poziomie początkującym, podstawowym, zaawansowanym
+					średnio-zaawansowany oraz eksperckim. Cena kursu zależy od ilości godzin wybranych do nauki oraz poziomu kursu. Ceny kursu już od 600zł za miesiąc nauki!
+					Przyporządkowania do grup językowych odbędą się po weryfikacji wiedzy kursanta podczas egzaminu wstępnego.
+					<br>
+					Poniżej przedstawiamy sylwetki naszych lektorów, wcześniej zajmowali się piłką nożną.
+                </p>
+                <div class="image">
+                    <a onClick="window.open('http://weszlo.com/wp-content/uploads/2016/04/cropped_REU_2210144-590x410.jpg', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="http://weszlo.com/wp-content/uploads/2016/04/cropped_REU_2210144-590x410.jpg"></a>
+                    <a onClick="window.open('https://ocdn.eu/pulscms-transforms/1/JCZktkpTURBXy9mNGQ0ODU5NTAzYTZmYzQzMzU4NzVkODdiMjNjNjNkZC5qcGeSlQMAQs0JQ80FNZMFzQMgzQHC', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="https://ocdn.eu/pulscms-transforms/1/JCZktkpTURBXy9mNGQ0ODU5NTAzYTZmYzQzMzU4NzVkODdiMjNjNjNkZC5qcGeSlQMAQs0JQ80FNZMFzQMgzQHC"></a>
+                    <a onClick="window.open('http://cdn14.se.smcloud.net/t/photos/t/173551/thierry-henry_22814717.jpg', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="http://cdn14.se.smcloud.net/t/photos/t/173551/thierry-henry_22814717.jpg"></a>
+                </div>
+                <a class="mniej" id="francuski3"><img src='https://cdn2.iconfinder.com/data/icons/media-and-navigation-buttons-round/512/Button_2-512.png'
+                        style="width: 30px; height: 30px;"></a>
+            </div>
+            <div id="hiszp">
+                <h3>Język hiszpański</h3>
+                <p>
+                    Język najlepszych piłkarzy oraz torreadorów. W naszej firmie państwo mają do wyboru języka na poziomie początkującym, podstawowym, zaawansowanym
+					średnio-zaawansowany oraz eksperckim. Cena kursu zależy od ilości godzin wybranych do nauki oraz poziomu kursu. Ceny kursu już od 700zł za miesiąc nauki!
+					Przyporządkowania do grup językowych odbędą się po weryfikacji wiedzy kursanta podczas egzaminu wstępnego.
+					<br>
+					Poniżej przedstawiamy sylwetki naszych lektorów, wcześniej zajmowali się piłką nożną.
+                </p>
+                <div class="image">
+                    <a onClick="window.open('http://3.bp.blogspot.com/-Ih-d7mYmFm0/UUhdt8-Ri-I/AAAAAAAABXA/AsdoeuTdlao/s1600/2013-01-24_MALAGA-BARCELONA_16-Optimized.v1359074098.jpg', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="http://3.bp.blogspot.com/-Ih-d7mYmFm0/UUhdt8-Ri-I/AAAAAAAABXA/AsdoeuTdlao/s1600/2013-01-24_MALAGA-BARCELONA_16-Optimized.v1359074098.jpg"></a>
+                    <a onClick="window.open('http://www.hiszpania-apartamenty.pl/userfiles/image/SPORT/INIESTA-ANDRES-PILKARZ-HISZPANSKI.jpg', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="http://www.hiszpania-apartamenty.pl/userfiles/image/SPORT/INIESTA-ANDRES-PILKARZ-HISZPANSKI.jpg"></a>
+                    <a onClick="window.open('http://cdn22.se.smcloud.net/t/photos/t/99122/Guti_22994436.jpg', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="http://cdn22.se.smcloud.net/t/photos/t/99122/Guti_22994436.jpg"></a>
+                </div>
+                <a class="mniej" id="hiszp3"><img src='https://cdn2.iconfinder.com/data/icons/media-and-navigation-buttons-round/512/Button_2-512.png'
+                        style="width: 30px; height: 30px;"></a>
+            </div>
+            <div id="port">
+                <h3>Język portugalski</h3>
+                <p>
+					Język wybitnych żeglarzy, odkrywców oraz Cristiano Ronal. W naszej firmie państwo mają do wyboru języka na poziomie początkującym, podstawowym, zaawansowanym
+					średnio-zaawansowany oraz eksperckim. Cena kursu zależy od ilości godzin wybranych do nauki oraz poziomu kursu. Ceny kursu już od 500zł za miesiąc nauki!
+					Przyporządkowania do grup językowych odbędą się po weryfikacji wiedzy kursanta podczas egzaminu wstępnego.
+					<br>
+					Poniżej przedstawiamy sylwetki naszych lektorów, wcześniej zajmowali się piłką nożną.
+                </p>
+                <div class="image">
+                    <a onClick="window.open('http://static.prsa.pl/images/8e98e172-25c7-4c54-9568-c44086c9861d.jpg', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="http://static.prsa.pl/images/8e98e172-25c7-4c54-9568-c44086c9861d.jpg"></a>
+                    <a onClick="window.open('https://storage2.sportowefakty.pl.sds.o2.pl/sg_specialteaser_h/5775754d928633_77643638.jpg', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="https://storage2.sportowefakty.pl.sds.o2.pl/sg_specialteaser_h/5775754d928633_77643638.jpg"></a>
+                    <a onClick="window.open('http://st3.depositphotos.com/7237548/13673/i/1600/depositphotos_136733840-stock-photo-portuguese-footballer-cristiano-ronaldo.jpg', '_blanked', 'width=600', 'scrollbars=no', 'toolbar=no');"><img src="http://st3.depositphotos.com/7237548/13673/i/1600/depositphotos_136733840-stock-photo-portuguese-footballer-cristiano-ronaldo.jpg"></a>
+                </div>
+                <a class="mniej" id="port3"><img src='https://cdn2.iconfinder.com/data/icons/media-and-navigation-buttons-round/512/Button_2-512.png'
+                        style="width: 30px; height: 30px;"></a>
+            </div>
+
+        </div>
+        <hr>
+        <div class="rezerwacja">
+            <h2>Rezerwacja</h2>
+            <p>W poniższym panelu państwo mogą się zarezerwować na nasz dowolny kurs językowy,
+				prosimy w uwagach o określenie języka. W sprawie wycieczek rezerwacje odbywają
+				się poprzez przesłanie maila do Mikołaja Tarnawy.
+            </p>
+            <p id="rez2">Wszystkie informacje pod numerem telefonu:
+                <br> 000 000 000 <br> lub drogą elektroniczną:
+                <br>
+                <a href="#">tarnawa.mikolaj@gmail.com</a>
+                <br><a id="formula">FORMULARZ!</a>
+            </p>
+
+        </div>
+        <div id="login">
+            <div>
+                <h3>Rezerwacja online</h3>
+                <form class="formularz">
+                    <table>
+                        <tr>
+                            <td>Imię</td>
+                            <td><input type="text" name='fname'></td>
+                        </tr>
+                        <tr>
+                            <td>Nazwisko</td>
+                            <td><input type="text" name='fsurname'></td>
+                        </tr>
+                        <tr>
+                            <td>Płeć</td>
+                            <td><input type="radio" name='fsex' value='ffemale' checked> Kobieta<br>
+                                <input type="radio" name='fsex' value='fmale' checked> Mężczyzna</td>
+                        </tr>
+                        <tr>
+                            <td>E-mail</td>
+                            <td><input type="text" name='fmail'></td>
+                        </tr>
+                        <tr>
+                            <td>Telefon</td>
+                            <td><input type="text" name='fnumber'></td>
+                        </tr>
+                        <tr>
+                            <td>Data</td>
+                            <td><input type="text" name='fdate'></td>
+                        </tr>
+                        <tr>
+                            <td>Godzina</td>
+                            <td><input type="text" name='fhour'></td>
+                        </tr>
+                        <tr>
+                            <td>Uwagi</td>
+                            <td><textarea rows="5" cols="15" name="fuwagi"></textarea>
+                        </tr>
+                        <tr>
+                            <td colspan='2' style="text-align: center"><input type="button" value="Wyślij" onClick="alert('Dziękujemy za przesłanie zgłoszenia.');"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div id="kontakt">
+            <h2>Kontakt</h2>
+            <div>
+                <h3>Adres kontaktowy</h3>
+                <p> Firma Translator Sp.z.o.o. <br> 43-300 ul.Bez nazwy Bielsko-Biała Polska</p>
+            </div>
+            <div>
+                <h3>Telefony i e-mail</h3>
+                <p>Prezes: 000 000 000 <br> Fax: +00 000 000 000 <br> E-mail: <a href="#">tarnawa.mikolaj@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+    <footer class="zrodla">
+        <h2>Źródła</h2>
+        <div id="overflow">
+            <p>Materiały edukacyjne</p>
+            <ul>
+				<li>http://home.agh.edu.pl/~kmirek/</li>
+                <li>https://www.w3schools.com/</li>
+                <li>https://jigsaw.w3.org/css-validator </li>
+                <li>https://validator.w3.org/</li>
+                <li>https://www.jquery.com</li>
+            </ul>
+            <p>Obrazki</p>
+            <ul>
+                <li>https://www.hastac.org/sites/default/files/upload/images/post/orange-</li>
+                <li>https://cdn2.iconfinder.com/data/icons/media-and-navigation-buttons-round/512/Button_2-512.png</li>
+                <li>https://flagspot.net/images/u/ug.gif</li>
+                <li>https://www.sklepzflagami.pl/images/panstwa/kongo_republika.png</li>
+                <li>http://www.instalki.pl/images/newsy/styczen_2015/korea_polnocna_flaga.jpg</li>
+                <li>http://www.flagi-panstw.pl/data/flags/ultra/sr.png</li>
+                <li>https://us.123rf.com/450wm/stefanphoto/stefanphoto1207/stefanphoto120700003/14489735-bandera-brit-nica-ondeando-en-el-viento.jpg?ver=6</li>
+                <li>https://i.ytimg.com/vi/uYxyx8DgWGA/maxresdefault.jpg</li>
+                <li>https://1.allegroimg.com/s400/01a105/a3a890fb4496b1a7ab61c5feef31</li>
+                <li>https://0.allegroimg.com/s400/015b7d/a18639224976aac7b3c7e5433970</li>
+                <li>http://przeglad-turystyczny.pl/images/uimg01/hiszpania-01-flaga.jpg</li>
+                <li>http://www.odyssei.com/gallery/633/121199326016195_portugalia_039.jpg</li>
+                <li>http://naszapilka.com/wp-content/uploads/2016/12/sg.jpg</li>
+				<li>http://reddevilarmada.com/files/2016/02/Wayne-Rooney-601018.jpg</li>
+				<li>http://www.soccerpro.com/thecentercircle/wp-content/uploads/2014/01/3623742790.jpg</li>
+				<li>http://images.performgroup.com/di/library/omnisport/d5/af/mariogotze-cropped_1fujm9d3fha11cyfqr3dld5kl.jpg?t=-1468841973&w=620&h=430</li>
+				<li>http://zzapolowy.com/wp-content/uploads/2017/04/pl.jpg</li>
+				<li>http://i.dailymail.co.uk/i/pix/2010/04/23/article-0-02349044000005DC-600_468x444.jpg</li>
+				<li>http://lovefootball.pl/tl_files/Major%20League%20Soccer/pirlo.jpg</li>
+				<li>https://ocdn.eu/pulscms-transforms/1/cOTktkpTURBXy9lZGUxMzRjNmQxNTI0NTJjM2JiZjYxZjk4YmFiZDQ5MC5qcGeTlQMAAM0KAM0FoJMFzQMUzQG8lQfZMi9wdWxzY21zL01EQV8vMTQwYjFjZmU3ZjBhYzUyZWRjMDEwZDcwOTc4ZTg0YmUucG5nAMIA</li>
+				<li>http://ocdn.eu/pulscms-transforms/1/AQwktkpTURBXy8yYjNmYWZiY2RhZjc1YTcyNmI0ZjgyYmQyMjY0ZjVm</li>
+				<li>http://cdn14.se.smcloud.net/t/photos/t/173551/thierry-henry_22814717.jpg</li>
+				<li>http://3.bp.blogspot.com/-Ih-d7mYmFm0/UUhdt8-Ri-I/AAAAAAAABXA/AsdoeuTdlao/s1600/2013-01-24_MALAGA-BARCELONA_16-Optimized.v1</li>
+				<li>http://www.hiszpania-apartamenty.pl/userfiles/image/SPORT/INIESTA-ANDRES-PILKARZ-HISZPANSKI.jpg</li>
+				<li>http://cdn22.se.smcloud.net/t/photos/t/99122/Guti_22994436.jpg</li>
+				<li>http://static.prsa.pl/images/8e98e172-25c7-4c54-9568-c44086c9861d.jpg</li>
+				<li>https://storage2.sportowefakty.pl.sds.o2.pl/sg_specialteaser_h/5775754d928633_77643638.jpg</li>
+				<li>http://st3.depositphotos.com/7237548/13673/i/1600/depositphotos_136733840-stock-photo-portuguese-footballer-cristiano-ronaldo.jpg</li>
+            </ul>
+        </div>
+	</body>
+</html>
